@@ -13,7 +13,9 @@ public class CollisionResistance {
         String input4 = "Secure IV1013";
         String input5 = "No way";
 
-
+        findCollision(input, input.length());
+        findCollision(input2, input2.length());
+        findCollision(input3, input3.length());
         findCollision(input4, input4.length());
         findCollision(input5, input5.length());
 
